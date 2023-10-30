@@ -1,10 +1,10 @@
-## SECTION 1 : ISSM-PM-EBA5004-GROUP6
 ## PRACTICAL LANGUAGE PROCESSING
+## PLP-PM-EBA5004-GROUP9
 
 
 ---  
 
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+## SECTION 1 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
 In the field of healthcare, medical journals regularly publish information about various treatments in use today. Patients, especially those with higher education levels, often want to engage more actively with their healthcare providers and understand their treatment options better. However, this increased patient engagement can strain already limited medical resources. Many patients also turn to the internet for information about their health, but they often struggle to understand highly technical medical publications, and sometimes the media misinterprets these findings, leading to misinformation.
 
@@ -13,7 +13,7 @@ To address these challenges, advances in Natural Language Processing (NLP) tools
 
 ---
 
-## SECTION 3 : PROJECT TEAM MEMBERS
+## SECTION 2 : PROJECT TEAM MEMBERS
 
 | Official Full Name  | Student ID  |
 | :------------ |:--------------- |
@@ -25,7 +25,7 @@ To address these challenges, advances in Natural Language Processing (NLP) tools
 
 ---
 
-## SECTION 4 : RUNNING THE APPLICATION
+## SECTION 3 : RUNNING THE APPLICATION
 `First, download the model binary and place it into the server/t5-model folder`
 ```
 1. Download Link: https://www.changsiang.net/files/pytorch_model.bin (891.7 MB)
@@ -49,7 +49,7 @@ ng serve
 
 ---
 
-## SECTION 5: USING THE APPLICATION
+## SECTION 4: USING THE APPLICATION
 You can use the application with the following interactions
 
 ### Translate complex medical text into readable Plain Language Adaptation
