@@ -29,6 +29,7 @@ To address these challenges, advances in Natural Language Processing (NLP) tools
 `First, download the model binary and place it into the server/t5-model folder`
 ```
 1. Download Link: https://www.changsiang.net/files/pytorch_model.bin (891.7 MB)
+Mirror Link: https://drive.google.com/file/d/1cNrGWFUpDWssQRvJEeHLpRGLuUNleKlz/view 
 2. Place the file "pytorch_model.bin" into the server/t5-model folder
 ```
 
