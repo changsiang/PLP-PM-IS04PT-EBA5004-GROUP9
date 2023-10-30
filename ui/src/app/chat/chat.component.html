@@ -1,0 +1,33 @@
+<body>
+<div class="container">
+    <div class="sidebar">
+    <!-- Sidebar content goes here -->
+        <!-- <button id="newChatButton">+ New Chat</button> -->
+        <h3>Today</h3>
+        <div class="chat-history">
+            <ul id="chatHistory">
+
+            </ul>
+        </div>
+    </div>
+    <div class="chatbox">
+    <!-- Chatbox content goes here -->
+    <div class="chatbox-header">
+        <h2>Chatbox</h2>
+    </div>
+    <div class="chatbox-messages" id="chatMessages">
+        <ng-container *ngFor="let hx of conversationHistory">
+            <app-system-message *ngIf="hx.source === 'system'" message="{{hx.message}}"></app-system-message>
+            <app-user-message *ngIf="hx.source === 'user'" message="{{hx.message}}"></app-user-message>
+        </ng-container>
+        <app-typing *ngIf="thinking"></app-typing>
+    </div>
+    <div class="input-container">
+        <div class="chatbox-input">
+            <textarea class="user-input" id="inputText" [(ngModel)]='inputText' placeholder="Type your message here..."></textarea>
+            <button id="sendMessageButton" (click)="sendMessage($event)">Send</button>
+        </div>
+    </div>
+    </div>
+    </div>  
+</body>

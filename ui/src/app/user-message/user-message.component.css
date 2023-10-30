@@ -1,0 +1,8 @@
+.user-message {
+    border: 1px solid #dedede;
+    background-color: aliceblue;
+    text-align: right;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-top: 1%;
+}

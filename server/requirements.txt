@@ -1,0 +1,7 @@
+transformers==4.30.2
+torch==2.0.0
+tokenizers==0.13.3
+Flask
+Flask-Cors==4.0.0
+Flask-SocketIO==5.3.6
+urllib

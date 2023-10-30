@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    padding: 10px;
+}
+
+.sidebar {
+    flex: 0 0 200px; /* Fix the sidebar width 200px */
+    background-color:lightcyan;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar Button {
+    height: 5%;
+    width: 95%;
+    font-size: 120%;
+    background-color:lightblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.chat-history {
+    height: 80%;
+    background-color:lightblue;
+    overflow-y: hidden;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.chatbox {
+    flex: 1; /* Let the chatbox take up the remaining space */
+    background-color:lightcyan;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.chatbox-header {
+    display: flex;
+    align-items: center;
+}
+   
+.chatbox-messages {
+    height: 60%;
+    overflow-y: hidden;
+    border: 1px solid #ccc;
+    background-color:powderblue;
+    padding: 10px;        
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.chatbot-message {
+    border: 1px solid #dedede;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.user-message {
+    border: 1px solid #dedede;
+    background-color: #ffffff;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.input-container {
+    display: flex;
+    height: 20%;        
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+.user-input {
+    width: 950px;
+    height: 80%;
+    border: transparent;
+    padding: 10px; 
+    border-radius: 10px;
+}
